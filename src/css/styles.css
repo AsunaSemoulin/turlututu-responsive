@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #1e93cc;
+}
+
+nav {
+    background-color: #333333;
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 15px;
+}
+
+.nav-logo {
+    padding-top: 10px;
+}
+
+nav ul {
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: auto 10px;
+}
+
+#login {
+    margin-left: 700px;
+    margin-top: 15px;
+    float: right;
+}
+
+header div {
+    margin-left: 725px;
+    margin-top: 150px;
+    position: relative;
+}
+
+.header-avatar {
+    margin-top: 150px;
+    margin-left: 200px;
+    float: left;
+}
+
+.header-logo {
+    margin-left: 110px;
+    margin-bottom: 50px;
+    display: block;
+}
+
+.header-text {
+    display: block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.header-button {
+    margin-left: 115px;
+    margin-top: 30px;
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: orange;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.header-notification {
+    margin-left: 1800px;
+}
+
+.awesome-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    background-color: white;
+    margin: 50px 0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.description h1, .description p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.description h1 {
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.description-row-one {
+    display: flex;
+    justify-content: center;
+}
+
+.description-row-two {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.description-column-one {
+    margin-right: 100px;
+}
+
+.description-column-two {
+    margin-left: 50px;
+}
+
+.description-column-three {
+    margin-right: 140px;
+}
+
+.grey {
+    color: grey;
+}
+
+.logos {
+    background-color: #eeeeee;
+    margin-top: -50px;
+}
+
+.logos-list ul {
+    margin-left: 475px;
+}
+.logos-list ul li {
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.last-logo {
+    margin-left: 850px;
+    margin-bottom: 50px;
+}
+
+.btns-list {
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.btns-list button {
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.rest-api-btn {
+    background-color: #165882;
+}
+
+.docs-btn {
+    background-color: #165882;
+}
+
+.start-building-btn {
+    background-color: #e99002;
+}
+
+footer {
+    background-color: #333333;
+}
+
+.footer-list ul li {
+    list-style-type: none;
+}
+
+.footer-list ul li a, footer a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.footer-list ul li a {
+    margin-right: 15px;
+}
+
+.footer-list ul {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.footer-copyright {
+    padding-left: 1180px;
+}
+
+.footer-notification {
+    margin-left: 1800px;
+}
+
+.footer-bg {
+    background-color: white;
+}
+
+@media only screen and (min-width: 640px) and (max-width: 1280px){
+    #login {
+        margin-left: 10%;
+    }
+
+    header div {
+        margin-left: 50%;
+    }
+
+    .last-logo {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .last-logo-responsive {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    nav ul {
+        display: none;
+    }
+
+    #login {
+        display: none;
+    }
+
+    .nav-logo {
+        margin-left: -50px;
+    }
+
+    header div {
+        margin-left: 25%;
+    }
+
+    .header-button {
+        margin-left: 0%;
+    }
+
+    .header-logo {
+        margin-top: 250px;
+
+    }
+
+    .header-avatar {
+        margin-left: 30%;
+        margin-bottom: 150px;
+    }
+
+    .description-column-one {
+        margin-left: 50px;
+    }
+
+    .description-column-two {
+        margin-right: 80px;
+    }
+
+    .description-column-three {
+        margin-left: 80px;
+    }
+
+    .description-column-four {
+        margin-right: 80px;
+    }
+
+    .logos {
+        margin-left: -450px;
+    }
+
+    .last-logo {
+        display: none;
+    }
+}
